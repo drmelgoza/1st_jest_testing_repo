@@ -1,0 +1,15 @@
+{
+  "name": "jest_testing",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd packages/jest-testing && npm run test"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
